@@ -1,0 +1,7 @@
+version: '3.3'
+
+services:
+  flask_app:
+    image: tra1tor/lesson5
+    ports:
+    - 5503:5000
